@@ -20,5 +20,5 @@ echo 'Apply sharding configuration'
 docker exec -it mongodbdocker_mongo-router-01_1 sh -c "mongosh --port 27017 < /mongo-sharding.init.js"
 
 # Enable admin account
-echo 'Enable admin account'
-docker exec -it mongodbdocker_mongo-router-01_1 sh -c "mongosh --port 27017 < /mongo-auth.init.js"
+# echo 'Enable admin account'
+# docker exec -it mongodbdocker_mongo-router-01_1 sh -c "mongosh --port 27017 < /mongo-auth.init.js"

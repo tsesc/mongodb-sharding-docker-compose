@@ -5,7 +5,7 @@ rs.initiate(
       members: [
          { _id: 0, host : "mongo-shard-01a:27017" },
          { _id: 1, host : "mongo-shard-01b:27017" },
-         { _id: 2, host : "mongo-shard-01c:27017" }
+         // { _id: 2, host : "mongo-shard-01c:27017" }
       ]
    }
 )
